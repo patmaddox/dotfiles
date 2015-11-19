@@ -1,0 +1,15 @@
+magit:
+  repo: https://github.com/magit/magit.git
+  path: vendor
+textmate:
+  repo: https://github.com/defunkt/textmate.el.git
+  path: vendor
+slime:
+  repo: https://github.com/nablaone/slime.git
+  path: vendor
+coffee-mode:
+  repo: git://github.com/defunkt/coffee-mode.git
+  path: vendor
+markdown-mode:
+  repo: git://jblevins.org/git/markdown-mode.git
+  path: vendor

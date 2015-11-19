@@ -1,0 +1,12 @@
+tramp
+url/cookies
+*.elc
+vendor/magit
+
+vendor/textmate
+
+vendor/slime
+
+vendor/coffee-mode
+
+vendor/markdown-mode
