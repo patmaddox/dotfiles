@@ -38,7 +38,7 @@ source /usr/local/etc/bash_completion.d/git-completion.bash
 
 # add current branch to git prompt
 source $(brew --prefix)/etc/bash_completion.d/git-prompt.sh
-PS1="\[$txtyellow\]\u@\h:\[$txtblue\]\W \[$txtred\]\$(__git_ps1 \"(%s)\")\[$txtreset\]\$ "
+PS1="\[$txtyellow\]\u@\h:\[$txtblue\]\w \[$txtred\]\$(__git_ps1 \"(%s)\")\[$txtreset\]\$ "
 
 # keep some stuff private
 if [ -d ~/.bash_private ]; then
