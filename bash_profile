@@ -28,11 +28,17 @@ alias eax="source ~/.bash_profile"
 
 #export PATH="$HOME/bin:/Applications/calibre.app/Contents/MacOS:$PATH"
 
+# colors for prompt
+txtred='\e[0;31m'
+txtyellow='\e[0;33m'
+txtblue='\e[0;34m'
+txtreset='\e[0m'
+
 source /usr/local/etc/bash_completion.d/git-completion.bash
 
 # add current branch to git prompt
 source $(brew --prefix)/etc/bash_completion.d/git-prompt.sh
-PS1="\u@\h:\W \$(__git_ps1 \"(%s)\")\$ "
+PS1="\[$txtyellow\]\u@\h:\[$txtblue\]\W \[$txtred\]\$(__git_ps1 \"(%s)\")\[$txtreset\]\$ "
 
 # keep some stuff private
 if [ -d ~/.bash_private ]; then
