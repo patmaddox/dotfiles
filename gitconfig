@@ -1,0 +1,11 @@
+[user]
+	name = Pat Maddox
+	email = pat@patmaddox.com
+[core]
+	excludesfile = ~/.gitignore_global
+[alias]
+	cam = commit -a -m
+	co = checkout
+  ap = add -p
+[push]
+	default = simple

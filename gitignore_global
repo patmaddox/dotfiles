@@ -1,0 +1,8 @@
+*~
+.gems
+.rbenv-gemsets
+.ruby-version
+.DS_Store
+package.box
+.#*
+wiki
