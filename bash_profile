@@ -7,7 +7,7 @@ alias ll="ls -lh"
 
 alias skey_me="ssh-add -D && ssh-add ~/.ssh/padillac_luckbox_rsa"
 
-# alias eax="source ~/.bash_profile"
+alias eax="source ~/.bash_profile"
 
 ## rbenv
 # export RBENV_ROOT=/usr/local/var/rbenv
